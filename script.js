@@ -19,6 +19,12 @@ yesBtn.addEventListener("click", () => {
   setTimeout(() => {
     document.body.style.background = originalColor;
   }, 1000); // Adjust the time based on your transition duration
+
+  // Add animation to the text
+  question.style.animation = "scaleUp 1s ease-in-out";
+  setTimeout(() => {
+    question.style.animation = "none";
+  }, 1000); // Adjust the time based on your animation duration
 });
 
 noBtn.addEventListener("mouseover", () => {
