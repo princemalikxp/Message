@@ -56,4 +56,17 @@ button {
     font-size: 1.2em;
 }
 
-button:nth-child(
+button:nth-child(1) {
+    margin-left: -200px;
+    background: #e94d58;
+}
+
+button:nth-child(2) {
+    margin-right: -200px;
+    background: white;
+    color: #e94d58;
+}
+
+h2 {
+    animation: scaleUp 1s ease-in-out;
+}
