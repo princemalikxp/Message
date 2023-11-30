@@ -5,7 +5,7 @@ const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "YES✨I LOVE YOU TOO, see you after your exams then😭✨";
+  question.innerHTML = "YES?👀✨ really? ayoo😭✨, see you after your exams then I'll be waiting!😭✨";
   gif.src = "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
   
   // Set the original color
